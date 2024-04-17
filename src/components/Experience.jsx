@@ -69,11 +69,11 @@ const Experience = () => {
                   <div className="d-flex pb-1"></div>
                   <p className="py-3 text-white ">
                     Since March 2023, I have been a valuable contributor to an
-                    <span>AIIOTS GEEK WORLD PVT LTD company</span>company,
-                    specializing in frontend development. My role involved
-                    diverse projects, predominantly utilizing ReactJS. I
-                    excelled in API integration, translating designs into
-                    seamless implementations, and more.
+                    <span>AIIOTS GEEK WORLD PVT LTD company</span>, specializing
+                    in frontend development. My role involved diverse projects,
+                    predominantly utilizing ReactJS. I excelled in API
+                    integration, translating designs into seamless
+                    implementations, and more.
                   </p>
                   <p className="text-white">
                     <span className=" text-white mx-2">Intern</span>March 2023 -
