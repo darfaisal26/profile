@@ -1,4 +1,4 @@
-import resume from "../assets/Faisal Nazir.pdf";
+import resume from "../assets/Faisal dar.pdf";
 function Resume() {
   return (
     <div>

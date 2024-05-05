@@ -25,9 +25,9 @@ const Home = () => {
                   <button type="button" className="home_btn2">
                     <NavLink to="/about">ABOUT ME</NavLink>
                   </button>
-                  <button type="button" className="home_btn2">
+                  {/* <button type="button" className="home_btn2">
                     <NavLink to="/resume">Resume</NavLink>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
