@@ -8,7 +8,7 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Skills from "./components/Skills";
-import Portfolio from "./components/Portfolio";
+import Portfolio, { Images } from "./components/Portfolio";
 import Services from "./components/Services";
 import Experience from "./components/Experience";
 import Blog from "./components/Blog";
@@ -35,6 +35,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/experience" element={<Experience />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/images" element={<Images />} />
         </Routes>
         <Footer />
       </Router>

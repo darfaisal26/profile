@@ -20,7 +20,7 @@ const Navbar = () => {
             <i className="fa-solid fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto nav_ul">
+            <ul className="navbar-nav ms-auto nav_ul" id="navbar">
               <li className="nav-item">
                 <NavLink to="/about">About</NavLink>
               </li>
@@ -36,12 +36,6 @@ const Navbar = () => {
               <li className="nav-item">
                 <NavLink to="/experience"> Experience</NavLink>
               </li>
-              {/* <li className="nav-item">
-                <NavLink to="/blog"> Blog</NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink to="/contact"> Contact</NavLink>
-              </li> */}
             </ul>
           </div>
         </div>

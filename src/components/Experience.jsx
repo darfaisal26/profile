@@ -40,7 +40,7 @@ const Experience = () => {
               modules={[FreeMode, Pagination]}
               className="mySwiper"
             >
-              <SwiperSlide>
+              {/* <SwiperSlide>
                 <div className="test_1" data-aos="fade-up">
                   <img src={icon1} alt="" className="test_img" />
                   <div className="d-flex pb-1"></div>
@@ -62,7 +62,7 @@ const Experience = () => {
                     </div>
                   </div>
                 </div>
-              </SwiperSlide>
+              </SwiperSlide> */}
               <SwiperSlide>
                 <div className="test_1 shadow" data-aos="fade-up">
                   <img src={icon1} alt="" className="test_img" />

@@ -1,10 +1,10 @@
-// import React from "react";
 import img1 from "../assets/icon1.png";
 import img2 from "../assets/icon2.png";
 import img3 from "../assets/i1.png";
 import img4 from "../assets/i2.png";
 import img5 from "../assets/i3.png";
-import mypic from "../assets/mypic.jpg";
+import mypic from "../assets/profile.jpg";
+
 const About = () => {
   return (
     <>
@@ -76,7 +76,12 @@ const About = () => {
           <div className="row gx-0 align-items-center">
             <div className="col-md-6" data-aos="fade-down">
               <div className="sec1_col1  mx-4">
-                <img src={mypic} alt="" className="img-fluid" />
+                <img
+                  src={mypic}
+                  alt=""
+                  className="img-fluid"
+                  style={{ mixBlendMode: "color-burn" }}
+                />
               </div>
             </div>
             <div className="col-md-6" data-aos="fade-up">
