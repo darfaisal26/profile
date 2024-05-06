@@ -22,9 +22,7 @@ const Footer = () => {
               </a>
 
               <a
-                href="www.linkedin.com/in/
-                faisal-nazir-31ba22244
-                "
+                href="https://www.linkedin.com/in/faisal-nazir-31ba22244/"
                 target="_blank"
                 rel="noreferrer"
               >
