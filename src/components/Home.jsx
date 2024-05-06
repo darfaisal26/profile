@@ -21,7 +21,7 @@ const Home = () => {
                 </h2>
                 <h1>I am a FrontEnd Developer</h1>
                 <div className="home_text"></div>
-                <div className="home_btns">
+                <div className="home_btns " style={{ textAlign: "center" }}>
                   <button type="button" className="home_btn2">
                     <NavLink to="/about">ABOUT ME</NavLink>
                   </button>
